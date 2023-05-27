@@ -1,0 +1,161 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title{
+    background-color: #ED2B2A;
+    color: #fff;
+}
+h1{
+    font-family: 'Marhey', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Marhey', cursive;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Marhey', cursive;
+
+
+}
+p{
+    color: #8f8f8f;
+    font-family: 'Marhey', cursive;
+    font-size: 1rem;
+
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/*Navigation Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Marhey', cursive;
+
+}
+
+/*Download Buttons*/
+
+.download-btn{
+    margin: 25% 3% 5% 0;
+}
+
+/*Title Img*/
+
+.title-img{
+
+    width: 80%;
+    transform: rotate(25deg);
+    margin-left: 10%;
+
+}
+
+/*features*/
+
+#features{
+    padding: 7% 15%;
+    
+}
+
+.f-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    font-size: 50px;
+    color: #F15A59;
+}
+.icon:hover{
+    color: #ED2B2A;
+}
+/*testimonials*/
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ED2B2A;
+    color: #fff;
+    
+}
+.test-img{
+    width: 150px;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#press{
+    background-color: #ED2B2A;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/*Style*/
+
+#style{
+    padding: 100px;
+    text-align: center;
+}
+.style-s{
+    padding: 3% 2%;
+
+}
+
+
+
+/*Call to Action*/
+
+#cta{
+    background-color: #ED2B2A;
+    color: #fff;
+    padding: 4% 15%;
+    text-align: center;
+}
+.cta-h{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/*footer*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.so-icon{
+    margin: 20px 10px;
+}
+
+
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}
